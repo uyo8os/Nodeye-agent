@@ -3,7 +3,7 @@ package cmd
 import (
 	"log"
 
-	monitoring "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
+	monitoring "github.com/uyo8os/Nodeye-agent/monitoring/unit"
 	"github.com/spf13/cobra"
 )
 

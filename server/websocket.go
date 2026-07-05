@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
-	"github.com/Nodeye-monitor/Nodeye-agent/monitoring"
-	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
-	"github.com/Nodeye-monitor/Nodeye-agent/utils"
-	"github.com/Nodeye-monitor/Nodeye-agent/ws"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
+	"github.com/uyo8os/Nodeye-agent/monitoring"
+	v2 "github.com/uyo8os/Nodeye-agent/protocol/v2"
+	"github.com/uyo8os/Nodeye-agent/utils"
+	"github.com/uyo8os/Nodeye-agent/ws"
 )
 
 var (

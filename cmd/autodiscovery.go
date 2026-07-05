@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
-	"github.com/Nodeye-monitor/Nodeye-agent/utils"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
+	"github.com/uyo8os/Nodeye-agent/utils"
 )
 
 // AutoDiscoveryConfig 自动发现配置结构体

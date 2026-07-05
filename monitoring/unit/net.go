@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/monitoring/netstatic"
-	"github.com/Nodeye-monitor/Nodeye-agent/utils"
+	"github.com/uyo8os/Nodeye-agent/monitoring/netstatic"
+	"github.com/uyo8os/Nodeye-agent/utils"
 	"github.com/shirou/gopsutil/v4/net"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/cmd"
+	"github.com/uyo8os/Nodeye-agent/cmd"
 )
 
 func main() {

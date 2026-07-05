@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
+	v2 "github.com/uyo8os/Nodeye-agent/protocol/v2"
 )
 
 type httpStatusError struct {

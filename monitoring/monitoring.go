@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
-	unit "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
+	pkg_flags "github.com/uyo8os/Nodeye-agent/cmd/flags"
+	unit "github.com/uyo8os/Nodeye-agent/monitoring/unit"
 )
 
 var flags = pkg_flags.GlobalConfig

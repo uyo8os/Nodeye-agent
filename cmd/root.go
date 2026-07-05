@@ -14,14 +14,14 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
-	"github.com/Nodeye-monitor/Nodeye-agent/monitoring/netstatic"
-	monitoring "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
-	"github.com/Nodeye-monitor/Nodeye-agent/server"
-	"github.com/Nodeye-monitor/Nodeye-agent/update"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
+	"github.com/uyo8os/Nodeye-agent/monitoring/netstatic"
+	monitoring "github.com/uyo8os/Nodeye-agent/monitoring/unit"
+	"github.com/uyo8os/Nodeye-agent/server"
+	"github.com/uyo8os/Nodeye-agent/update"
 	"github.com/spf13/cobra"
 
-	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
+	pkg_flags "github.com/uyo8os/Nodeye-agent/cmd/flags"
 )
 
 var flags = pkg_flags.GlobalConfig

@@ -212,7 +212,7 @@ if ($InstallVersion -ne "") {
     $versionToInstall = $InstallVersion
 }
 else {
-    $ApiUrl = "https://api.github.com/repos/Nodeye-monitor/Nodeye-agent/releases/latest"
+    $ApiUrl = "https://api.github.com/repos/uyo8os/Nodeye-agent/releases/latest"
     try {
         Log-Step "Fetching latest release version from GitHub API..."
         $release = Invoke-RestMethod -Uri $ApiUrl -UseBasicParsing
@@ -228,7 +228,7 @@ Log-Success "Installing Nodeye Agent version: $versionToInstall"
 
 # Construct download URL
 $BinaryName = "Nodeye-agent-windows-$arch.exe"
-$DownloadUrl = if ($GitHubProxy) { "$GitHubProxy/https://github.com/Nodeye-monitor/Nodeye-agent/releases/download/$versionToInstall/$BinaryName" } else { "https://github.com/Nodeye-monitor/Nodeye-agent/releases/download/$versionToInstall/$BinaryName" }
+$DownloadUrl = if ($GitHubProxy) { "$GitHubProxy/https://github.com/uyo8os/Nodeye-agent/releases/download/$versionToInstall/$BinaryName" } else { "https://github.com/uyo8os/Nodeye-agent/releases/download/$versionToInstall/$BinaryName" }
 
 # Download and install
 New-Item -ItemType Directory -Path $InstallDir -Force | Out-Null

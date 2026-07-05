@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
-	monitoring "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
-	"github.com/Nodeye-monitor/Nodeye-agent/protocol/transport"
-	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
-	"github.com/Nodeye-monitor/Nodeye-agent/update"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
+	monitoring "github.com/uyo8os/Nodeye-agent/monitoring/unit"
+	"github.com/uyo8os/Nodeye-agent/protocol/transport"
+	v2 "github.com/uyo8os/Nodeye-agent/protocol/v2"
+	"github.com/uyo8os/Nodeye-agent/update"
 
-	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
+	pkg_flags "github.com/uyo8os/Nodeye-agent/cmd/flags"
 )
 
 var flags = pkg_flags.GlobalConfig

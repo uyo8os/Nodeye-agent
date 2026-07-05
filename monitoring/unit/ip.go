@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
 )
 
 var (

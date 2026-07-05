@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
+	pkg_flags "github.com/uyo8os/Nodeye-agent/cmd/flags"
 	"github.com/shirou/gopsutil/v4/mem"
 )
 

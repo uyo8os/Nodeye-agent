@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	"github.com/uyo8os/Nodeye-agent/dnsresolver"
 	"github.com/rhysd/go-github-selfupdate/selfupdate"
 )
 
 var (
 	CurrentVersion string = "0.0.1"
-	Repo           string = "Nodeye-monitor/Nodeye-agent"
+	Repo           string = "uyo8os/Nodeye-agent"
 )
 
 // parseVersion 解析可能带有 v/V 前缀，以及预发布或构建元数据的版本字符串
