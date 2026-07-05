@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/komari-monitor/komari-agent/dnsresolver"
-	monitoring "github.com/komari-monitor/komari-agent/monitoring/unit"
-	"github.com/komari-monitor/komari-agent/protocol/transport"
-	v2 "github.com/komari-monitor/komari-agent/protocol/v2"
-	"github.com/komari-monitor/komari-agent/update"
+	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	monitoring "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
+	"github.com/Nodeye-monitor/Nodeye-agent/protocol/transport"
+	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
+	"github.com/Nodeye-monitor/Nodeye-agent/update"
 
-	pkg_flags "github.com/komari-monitor/komari-agent/cmd/flags"
+	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
 )
 
 var flags = pkg_flags.GlobalConfig

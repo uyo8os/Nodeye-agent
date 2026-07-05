@@ -6,14 +6,14 @@ WORKDIR /app
 ARG TARGETOS
 ARG TARGETARCH
 
-COPY komari-agent-${TARGETOS}-${TARGETARCH} /app/komari-agent
+COPY Nodeye-agent-${TARGETOS}-${TARGETARCH} /app/Nodeye-agent
 
-RUN chmod +x /app/komari-agent
+RUN chmod +x /app/Nodeye-agent
 
-RUN touch /.komari-agent-container
+RUN touch /.Nodeye-agent-container
 
-ENTRYPOINT ["/app/komari-agent"]
+ENTRYPOINT ["/app/Nodeye-agent"]
 # 运行时请指定参数
 # Please specify parameters at runtime.
-# eg: docker run komari-agent -e example.com -t token
+# eg: docker run Nodeye-agent -e example.com -t token
 CMD ["--help"]

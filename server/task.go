@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/komari-monitor/komari-agent/dnsresolver"
-	v2 "github.com/komari-monitor/komari-agent/protocol/v2"
-	"github.com/komari-monitor/komari-agent/ws"
+	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
+	"github.com/Nodeye-monitor/Nodeye-agent/ws"
 	ping "github.com/prometheus-community/pro-bing"
 )
 
@@ -209,7 +209,7 @@ func NewPingTask(conn *ws.SafeConn, protocolVersion int, taskID uint, pingType, 
 	if protocolVersion >= 2 {
 		wsPayload = v2.BuildPingResultPayload(taskID, pingType, pingResult, finishedAt)
 	}
-	// https://github.com/komari-monitor/komari/commit/eb87a4fc330b7d1c407fa4ff70177615a4f50a1f
+	// https://github.com/Nodeye-monitor/Nodeye/commit/eb87a4fc330b7d1c407fa4ff70177615a4f50a1f
 	// -1 代表丢包，服务端计算
 	//if pingResult == -1 {
 	//	return

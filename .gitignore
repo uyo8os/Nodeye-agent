@@ -1,9 +1,9 @@
 __debug*
 agent.json
 .vscode/
-komari-agent.exe
-komari-agent
-.komari-agent.exe.old
+Nodeye-agent.exe
+Nodeye-agent
+.Nodeye-agent.exe.old
 build/
 auto-discovery.json
 net_static.json

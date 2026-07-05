@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/komari-monitor/komari-agent/dnsresolver"
-	"github.com/komari-monitor/komari-agent/monitoring"
-	v2 "github.com/komari-monitor/komari-agent/protocol/v2"
-	"github.com/komari-monitor/komari-agent/utils"
-	"github.com/komari-monitor/komari-agent/ws"
+	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	"github.com/Nodeye-monitor/Nodeye-agent/monitoring"
+	v2 "github.com/Nodeye-monitor/Nodeye-agent/protocol/v2"
+	"github.com/Nodeye-monitor/Nodeye-agent/utils"
+	"github.com/Nodeye-monitor/Nodeye-agent/ws"
 )
 
 var (

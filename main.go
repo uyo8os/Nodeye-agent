@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/komari-monitor/komari-agent/cmd"
+	"github.com/Nodeye-monitor/Nodeye-agent/cmd"
 )
 
 func main() {

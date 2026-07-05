@@ -14,22 +14,22 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/komari-monitor/komari-agent/dnsresolver"
-	"github.com/komari-monitor/komari-agent/monitoring/netstatic"
-	monitoring "github.com/komari-monitor/komari-agent/monitoring/unit"
-	"github.com/komari-monitor/komari-agent/server"
-	"github.com/komari-monitor/komari-agent/update"
+	"github.com/Nodeye-monitor/Nodeye-agent/dnsresolver"
+	"github.com/Nodeye-monitor/Nodeye-agent/monitoring/netstatic"
+	monitoring "github.com/Nodeye-monitor/Nodeye-agent/monitoring/unit"
+	"github.com/Nodeye-monitor/Nodeye-agent/server"
+	"github.com/Nodeye-monitor/Nodeye-agent/update"
 	"github.com/spf13/cobra"
 
-	pkg_flags "github.com/komari-monitor/komari-agent/cmd/flags"
+	pkg_flags "github.com/Nodeye-monitor/Nodeye-agent/cmd/flags"
 )
 
 var flags = pkg_flags.GlobalConfig
 
 var RootCmd = &cobra.Command{
-	Use:   "komari-agent",
-	Short: "komari agent",
-	Long:  `komari agent`,
+	Use:   "Nodeye-agent",
+	Short: "Nodeye agent",
+	Long:  `Nodeye agent`,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		loadFromEnv() // 从环境变量加载配置，覆盖解析
 		if flags.ConfigFile != "" {
@@ -75,7 +75,7 @@ var RootCmd = &cobra.Command{
 			}
 		}
 
-		log.Println("Komari Agent", update.CurrentVersion)
+		log.Println("Nodeye Agent", update.CurrentVersion)
 		log.Println("Github Repo:", update.Repo)
 
 		// 设置 DNS 解析行为
