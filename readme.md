@@ -30,6 +30,6 @@ curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/uyo8os/Nodeye-ag
 卸载与管理：
 
 ```
-bash <(curl -sL https://raw.githubusercontent.com/uyo8os/Nodeye-agent/main/komari-agent-menu.sh)
+bash <(curl -sL https://raw.githubusercontent.com/uyo8os/Nodeye-agent/main/Nodeye-agent-menu.sh)
 ```
 
