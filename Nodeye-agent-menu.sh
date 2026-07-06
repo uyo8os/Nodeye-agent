@@ -103,10 +103,10 @@ function update_agent() {
     fi
     
     if [ -n "$github_proxy" ]; then
-        download_url="${github_proxy}/https://github.com/Nodeye-monitor/Nodeye-agent/releases/${download_path}/${file_name}"
+        download_url="${github_proxy}/https://github.com/uyo8os/Nodeye-agent/releases/${download_path}/${file_name}"
         echo "使用代理下载：$github_proxy"
     else
-        download_url="https://github.com/Nodeye-monitor/Nodeye-agent/releases/${download_path}/${file_name}"
+        download_url="https://github.com/uyo8os/Nodeye-agent/releases/${download_path}/${file_name}"
         echo "直接下载"
     fi
     
